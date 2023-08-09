@@ -48,7 +48,7 @@ body {
 .button {
   color: #000;
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -98,11 +98,12 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+  list-style-type: none;
 }
 
 .slider-title {
   color: #000;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 50px;
   font-weight: 800;
   line-height: 50px;
@@ -110,7 +111,7 @@ body {
 
 .slider-item-title {
   color: #444;
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -121,19 +122,28 @@ body {
   list-style-type: none;
 }
 
-td {
+.slider-table {
+  color: #444;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.slider-characteristics {
+  color: #000;
   font-size: 36px;
   font-weight: bold;
 }
 
-th {
+.slider-options {
   font-size: 16px;
   font-weight: normal;
 }
 
 .product {
   /*родитель*/
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -145,14 +155,13 @@ th {
   list-style-type: none;
 }
 
-.product-link {
-  color: #000;
+.product-card-link {
   text-decoration: none;
 }
 
 .advantages {
   /*родитель*/
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -161,7 +170,7 @@ th {
 
 .advantages-title {
   color: #000;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 800;
@@ -183,7 +192,7 @@ th {
 .delivery {
   /*родитель*/
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: normal;
@@ -198,23 +207,22 @@ th {
 
 .about {
   /*родитель*/
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
 }
 
-.about h2 {
+.title-level-two {
   color: #000;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 50px;
-  font-style: normal;
   font-weight: 800;
-  line-height: 50px;
+  line-height: 50px
 }
 
-.about-title .about-description {
+.about-description {
   color: #444;
 }
 
@@ -232,19 +240,11 @@ th {
 
 .contacts {
   /*родитель*/
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-}
-
-.contacts h2 {
-  color: #000;
-  font-family: Raleway;
-  font-size: 50px;
-  font-weight: 800;
-  line-height: 50px;
 }
 
 .contacts h3 {
@@ -255,14 +255,6 @@ th {
 
 .subscribe-description {
   color: #444;
-}
-
-.subscribe-description h2 {
-  color: #000;
-  font-family: Raleway;
-  font-size: 50px;
-  font-weight: 800;
-  line-height: 50px;
 }
 
 /* Каталог*/
@@ -282,7 +274,7 @@ th {
 
 .main-inner h2 {
   color: #000;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: normal;
   letter-spacing: 3.2px;
@@ -303,17 +295,17 @@ th {
   letter-spacing: -0.36px;
 }
 
-.product-card .product-card-title {
-  color: #000;
+.product-card-title {
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: -0.36px;
+  text-decoration: none;
 }
 
 .pagination-link {
   color: #444;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 3.6px;
@@ -327,7 +319,7 @@ th {
 
 .footer-page {
   /*родитель*/
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -344,7 +336,7 @@ th {
 }
 
 .footer-navigation-link {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: normal;
